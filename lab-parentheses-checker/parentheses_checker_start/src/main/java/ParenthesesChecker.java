@@ -2,6 +2,9 @@ import java.util.*;
 
 public class ParenthesesChecker {
 
+//    Both the active method and the method commented out below were tested
+//    Both would pass for about half the tests but not for the other half
+    
     public static boolean checkParentheses(String testString) {
         if ((testString.length() % 2) == 1) return false;
         else {
